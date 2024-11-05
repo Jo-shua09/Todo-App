@@ -1,0 +1,41 @@
+.form {
+  padding: 2rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.form_container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.form input {
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 4rem;
+  border: 0.1rem solid black;
+  padding-left: 0.5rem;
+  text-transform: capitalize;
+}
+.form input:focus {
+  border: 0.1rem solid orange;
+  outline: none;
+}
+.form button {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.7rem;
+  background-color: orange;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.form button:hover {
+  transform: scale(1.1) rotate(5deg);
+  transition: transform 0.3s ease;
+}

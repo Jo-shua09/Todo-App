@@ -6,4 +6,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   text-transform: capitalize;
   background-color: whitesmoke;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
 }

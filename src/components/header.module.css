@@ -1,0 +1,10 @@
+.header {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.6);
+}

@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  background-color: whitesmoke;
+}

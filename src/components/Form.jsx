@@ -13,7 +13,7 @@ const Form = ({ todos, setTodos }) => {
   const handleAdd = (e) => {
     if (!todo.trim()) {
       alert("Please enter a todo item.");
-      return;
+      return e.preventDefault();
     }
   };
 
